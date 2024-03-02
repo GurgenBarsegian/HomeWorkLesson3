@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border: 2px solid gray;
+    margin: 1px;
+    padding: 2px;
+}
+th, tr, td{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+}
+img{
+    height: 20px;
+    width: 40px;
+}
