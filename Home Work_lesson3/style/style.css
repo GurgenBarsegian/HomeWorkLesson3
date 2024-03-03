@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+ul{
+     /* откопал в интернете */
+    list-style-type: disc !important; 
+    text-indent: 30px;
+}
 table{
     border: 2px solid gray;
     margin: 1px;
@@ -13,7 +18,38 @@ th, tr, td{
     padding: 2px;
     text-align: center;
 }
+h2{
+    padding: 10px;
+}
 img{
     height: 20px;
     width: 40px;
+}
+p{
+    padding: 20px;
+}
+.link1{
+    color: blue;
+    text-decoration-line: none;
+}
+.link1:hover{
+    color: green;
+    text-decoration-color: green;
+    text-decoration-line: underline;
+}
+.link2{
+    color: red;
+    text-decoration-line: underline;
+}
+.link2:hover{
+    color: blue;
+    text-decoration-line: line-through;
+}
+.link3{
+    color: black;
+    text-decoration-line: none;
+}
+.link3:hover{
+    color: red;
+    text-decoration-line: overline;
 }
